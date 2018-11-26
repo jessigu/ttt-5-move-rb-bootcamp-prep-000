@@ -14,7 +14,7 @@ def input_to_index(input)
   index = int - 1 
 end
 
-def move(array, index, char = 'X')
+def move(array, index, char = "X")
   array[index] = char
   return board
 end
